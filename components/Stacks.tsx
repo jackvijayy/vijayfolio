@@ -8,7 +8,7 @@ import { stacks, tools } from "@/Constants"
 
 const Stacks = () => {
   return (
-    <div className='h-[80vh] bg-black '>
+    <div className='h-[30vh] bg-black '>
          <div className="w-full ">
         <Marquee pauseOnHover>
           <div className="flex items-center gap-8">
