@@ -2,10 +2,13 @@
 import React from "react";
 import WordRotate from "./ui/word-rotate";
 import { ConfettiButton } from "./ui/confetti";
+import { Compare } from "./ui/compare";
+
 const Hero = () => {
+  
  
   return (
-    <div className="h-screen w-full overflow-hidden p-5 md:p-10 lg:p-20 flex justify-between items-center" id="home">
+    <div className="h-screen w-full overflow-hidden p-5 md:p-10 lg:p-20 flex justify-between items-center gap-5" id="home">
       <div className="flex flex-col gap-5 ">
         <h1 className="text-white text-2xl lg:5xl font-semibold">
           Hii There <span>👋</span><br />
@@ -22,7 +25,16 @@ const Hero = () => {
         
       </div>
       {/* image */}
-      <div className="hidden lg:flex flex-1 ">
+      <div className="hidden lg:flex flex-1 ml-16 ">
+      <Compare
+        firstImage="https://assets.aceternity.com/code-problem.png"
+        secondImage="https://assets.aceternity.com/code-solution.png"
+        firstImageClassName="object-cover object-left-top"
+        secondImageClassname="object-cover object-left-top"
+        className="h-[150px] w-[100px] md:h-[300px] md:w-[500px]"
+        slideMode="hover"
+      />
+
      
      
 

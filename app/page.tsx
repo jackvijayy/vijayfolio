@@ -2,6 +2,8 @@ import Certification from "@/components/Certification";
 
 
 import Hero from "@/components/Hero";
+import About from "@/components/About";
+
 import { FloatingDock } from "@/components/ui/floating-dock";
 
 import { Spotlight } from "@/components/ui/spotlight";
@@ -13,10 +15,11 @@ import {
   IconExchange,
   IconHome,
   IconNewSection,
-  IconTerminal2,
 } from "@tabler/icons-react";
-import { HomeIcon } from "lucide-react";
-import Image from "next/image";
+import Project from "@/components/Project";
+import Stacks from "@/components/Stacks";
+
+
 
 
 export default function Home() {
@@ -73,11 +76,9 @@ export default function Home() {
 ];
 
   return (
-    <div className="h-screen w-full rounded-md text-white bg-black antialiased bg-grid-white/[0.02] relative ">
+    <div className="h-screen w-full  text-white bg-black antialiased  relative ">
      <FloatingDock
-       mobileClassName="translate-20" // only for demo, remove for production
        items={links}/>
-
 
        <Spotlight
         className="-top-40 left-0 "
@@ -87,9 +88,11 @@ export default function Home() {
         className="-top-40 left-0 lg:-top-30  "
         fill="white"
       />
-     
       <Hero />
+      <Stacks/>
       <Certification/>
+      <About/>
+      <Project/>
     
     
     </div>
