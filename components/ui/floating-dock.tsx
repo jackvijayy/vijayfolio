@@ -43,7 +43,7 @@ const FloatingDockMobile = ({
 }) => {
   const [open, setOpen] = useState(true);
   return (
-    <div className={cn("fixed top-10 left-[13%] rounded-full backdrop-blur-sm bg-[#5a50e657] block md:hidden px-4 py-2 ", className)}>
+    <div className={cn("fixed top-10 left-[15%] rounded-full backdrop-blur-sm bg-[#204eb13d] block md:hidden px-4 py-2 ", className)}>
       <AnimatePresence>
         {open && (
           <motion.div
@@ -99,7 +99,7 @@ const FloatingDockDesktop = ({
       onMouseMove={(e) => mouseX.set(e.pageX)}
       onMouseLeave={() => mouseX.set(Infinity)}
       className={cn(
-        " hidden md:flex fixed right-10 top-20 gap-5 flex-col items-end   rounded-2xl  backdrop-blur-sm bg-[#f3f3f51c] p-4",
+        " hidden md:flex fixed right-10 top-20 z-40 gap-5 flex-col items-end   rounded-2xl  backdrop-blur-sm bg-[#f3f3f51c] p-4",
         className
       )}
     >

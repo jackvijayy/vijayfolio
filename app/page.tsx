@@ -19,9 +19,6 @@ import {
 import Project from "@/components/Project";
 import Stacks from "@/components/Stacks";
 
-
-
-
 export default function Home() {
   
   const links = [
@@ -79,15 +76,15 @@ export default function Home() {
     <div className="h-screen w-full  text-white bg-black antialiased  relative overflow-x-hidden ">
      <FloatingDock
        items={links}/>
-
        <Spotlight
         className="-top-40 left-0 "
         fill="blue"
       />
         <Spotlight
-        className="-top-40 left-0 lg:-top-30  "
-        fill="white"
+        className="-top-10 left-0 lg:-top-30 lg:right-14  "
+        fill="aqua"
       />
+       
       <Hero />
       <Stacks/>
       <Certification/>
