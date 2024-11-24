@@ -1,6 +1,8 @@
+
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -14,7 +16,7 @@ const geistMono = localFont({
 });
 
 
-export const metadata: Metadata = {
+ export const metadata: Metadata = {
   title: "Vijay",
   description: "This is my portfolio",
   openGraph: {
@@ -46,7 +48,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable}  antialiased`}
       >
-        {children}
+         {children}
       </body>
     </html>
   );
