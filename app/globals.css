@@ -8,6 +8,9 @@
   font-weight: normal;
   font-style: normal;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
 @layer base {
   :root {

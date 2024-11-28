@@ -19,6 +19,7 @@ const geistMono = localFont({
  export const metadata: Metadata = {
   title: "Vijay",
   description: "This is my portfolio",
+  icons:"/logo.svg",
   openGraph: {
     title: "VijayFolio",
     description:"This is my portfolio That shows My skills and Experience",

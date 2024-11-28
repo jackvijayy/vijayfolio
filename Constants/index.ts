@@ -80,3 +80,29 @@ export const tools=[
         img:"/Tools/excel.svg"
     },
 ]
+
+export const certification=[
+    {
+        id:1,
+        name:"Python",
+        Organization:"Guvi",
+        bgcolor:"#3A4E48",
+        img:"/logos/guvi.png",
+
+    },
+    {
+        id:2,
+        name:"Generative Ai",
+        Organization:"Workshop",
+        bgcolor:"#6320EE"
+
+    },
+    {
+        id:3,
+        name:"Software Using Github",
+        Organization:"Guvi",
+        bgcolor:"#DC0073",
+
+    },
+
+]

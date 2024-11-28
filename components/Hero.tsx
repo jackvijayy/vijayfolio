@@ -18,15 +18,15 @@ const Hero = () => {
         )}
       />
       <div className="flex flex-col gap-5 ">
-        <h1 className="text-white text-2xl lg:5xl font-semibold">
+        <h1 className="text-white text-2xl  md:text-3xl lg:5xl font-semibold">
           Hii There <span>👋</span><br />
          <WordRotate
-            className="text-5xl  font-custom text-cyan-500 lg:text-6xl  mt-5 tracking-wide"
+            className="text-5xl md:text-6xl  font-custom text-cyan-500 lg:text-6xl  mt-5 tracking-wide"
             words={["NEXT DEVELOPER", "WEB DEVELOPER",]}
           />
           
         </h1>
-        <p className="text-xs lg:text-base font-medium text-gray-400">Frontend architect focused on interactive,responsive,user-centered design.</p>
+        <p className="text-lg lg:text-base  text-white">Frontend architect focused on interactive responsive,user-centered design.</p>
         <div className="z-10">
        <ConfettiButton >Resume </ConfettiButton>
         </div>

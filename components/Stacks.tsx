@@ -1,14 +1,12 @@
 
-
 import Marquee from "react-fast-marquee"
-
-
 import Image from "next/image"
 import { stacks, tools } from "@/Constants"
 
 const Stacks = () => {
   return (
-    <div className='h-[30vh] bg-black p-5 '>
+    <div className='h-[40vh] bg-black p-5 '>
+      <h1 className="text-center text-5xl font-custom mb-10 text-green-500"> Stack and Tool</h1>
          <div className="w-full ">
         <Marquee pauseOnHover>
           <div className="flex items-center gap-8">
