@@ -18,7 +18,7 @@ const Certification = () => {
     <div className=' bg-black p-5 lg:p-10 '>
       <div className='flex justify-between items-center'>
       <h1 className='text-center text-md lg:text-2xl'>Certification & Participants</h1>
-      <Link href='/certification'><Button className='w-20'>Show more</Button></Link>
+      <Link href='/certification'><Button className='w-20'>For more</Button></Link>
         
       </div>
      
