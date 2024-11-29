@@ -88,3 +88,24 @@
   }
 }
 
+.card{
+background: rgba(21, 21, 21, 0.28);
+border-radius: 9px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(113, 120, 112, 0.3);
+}
+.gradient-text{
+  text-transform: uppercase;
+  background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.type{
+  background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}

@@ -6,10 +6,7 @@ import { Compare } from "./ui/compare";
 import DotPattern from "./ui/dot-pattern";
 import { cn } from "@/lib/utils";
 
-
 const Hero = () => {
-  
- 
   return (
     <div className="h-screen w-full overflow-hidden p-5 md:p-10 lg:p-20 flex justify-between items-center gap-5" id="home">
       <DotPattern
@@ -23,14 +20,12 @@ const Hero = () => {
          <WordRotate
             className="text-5xl md:text-6xl  font-custom text-cyan-500 lg:text-6xl  mt-5 tracking-wide"
             words={["NEXT DEVELOPER", "WEB DEVELOPER",]}
-          />
-          
+          />     
         </h1>
         <p className="text-lg lg:text-base  text-white">Frontend architect focused on interactive responsive,user-centered design.</p>
         <div className="z-10">
        <ConfettiButton >Resume </ConfettiButton>
         </div>
-        
       </div>
       {/* image */}
       <div className="hidden lg:flex flex-1 ml-16 ">
@@ -42,10 +37,6 @@ const Hero = () => {
         className="h-[150px] w-[100px] md:h-[300px] md:w-[500px]"
         slideMode="hover"
       />
-
-     
-     
-
       </div>
     </div>
   );

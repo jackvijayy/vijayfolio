@@ -73,7 +73,7 @@ export default function Home() {
 ];
 
   return (
-    <div className="h-screen w-full  text-white bg-black antialiased  relative overflow-x-hidden ">
+    <div className="h-screen w-full  text-white bg-black antialiased  relative overflow-x-hidden p-3 lg:p-10 ">
      <FloatingDock
        items={links}/>
        <Spotlight

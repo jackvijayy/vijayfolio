@@ -84,25 +84,62 @@ export const tools=[
 export const certification=[
     {
         id:1,
-        name:"Python",
-        Organization:"Guvi",
-        bgcolor:"#3A4E48",
+        name:"Beginner Python",
         img:"/logos/guvi.png",
-
+        learn:"In This Course Helps me the Fundmental of python and help to strong Foundation of python Programming"
     },
     {
         id:2,
-        name:"Generative Ai",
-        Organization:"Workshop",
-        bgcolor:"#6320EE"
+        name:"Software Using Github",
+        img:"/logos/guvi.png",
+        learn:"This Helps to how git and Github Used in software Development This course build My git and Github Knowleadge"
 
     },
     {
         id:3,
-        name:"Software Using Github",
-        Organization:"Guvi",
-        bgcolor:"#DC0073",
+        name:"Generative Ai",
+        type:"workshop",
+        learn:"This worshop helps Me how springBoot works in Backend and How to use it Effectively"
+
+        
+
+    },
+    {
+        id:4,
+        name:" Backend for SpringBoot",
+        type:"workshop",
+        learn:"Modern world how generative ai usefull how to get help form ai and its helpful for my productivity"
+
+        
 
     },
 
 ]
+
+export const projects=[
+    {
+        id:1,
+        title:"BrainWave",
+        des:"Modern Ai Based landingpage using Dynamic class and EveryElement is Components",
+        img: "/Thumbnail/brain.png",
+        iconLists: ["/stacks/react.svg", "/stacks/tailwindcss.svg"],
+        link: "https://modernbrainwave.web.app/",
+   },
+   {
+    id:2,
+    title:"Sumz",
+    des:"AI Article Summarizer with ChatGpt & minimize the Article content for Easly Readable and Understandable",
+    img: "/Thumbnail/sumz.png",
+    iconLists: ["/stacks/react.svg", "/stacks/tailwindcss.svg"],
+    link: "https://sumz-chatgpt.web.app/",
+},
+{
+    id:3,
+    title:"Weatherio",
+    des:"Providing Three days weather Forecast and Hourly Forecast",
+    img: "/Thumbnail/weather.png",
+    iconLists: ["/stacks/react.svg", "/stacks/tailwindcss.svg"],
+    link: "https://weatheriox.web.app/",
+},
+   
+];
